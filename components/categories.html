@@ -1,0 +1,130 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/fontawesome-free-6.2.1-web/css/all.min.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+
+        
+        <!-- <link rel="stylesheet" href="../../../style.css" /> -->
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+        <style>
+          .material-symbols-outlined {
+            font-variation-settings: "FILL" 0, "wght" 00, "GRAD" 0, "opsz" 48;
+          }
+        </style>
+  
+        <title>Categories | E-Arsip</title>
+      </head>
+      <body>
+        <header class="flex fixed w-full justify-between bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4 sm:block sm:w-64 sm:h-full">
+          <!-- 1 -->
+          <h2 class="text-gray-800 font-bold mb-3 pl-3 text-xl">E-Arsip Pekon Sumberrejo</h2>
+  
+          <!-- 2 -->
+          <nav class="fixed hidden top-14 left-0 w-full sm:block sm:static" id="navbar">
+            <!-- <nav class="fixed hidden top-0 left-0 sm:block sm:w-1/4"> -->
+            <div class="bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4">
+              <div class="py-2">
+                <a href="dashboard.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <i class="fa-solid fa-house fa-2x"></i>
+                  <span>Home</span>
+                </a>
+  
+                <a href="arsip.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <i class="fa-solid fa-floppy-disk fa-2x "></i>
+  
+  
+                  <span>Arsip</span>
+                </a>
+  
+                <a href="users.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                <i class="fa-solid fa-user fa-2x "></i>
+                 
+                  <span>Users</span>
+                  <a href="#" class="flex gap-1 py-3 bg-socialBlue text-white -mx-5 px-5 rounded-md shadow-md shadow-gray-300">
+                <i class="fa-solid fa-folder fa-2x "></i>
+                  <span>Categories</span>
+                </a>
+                     <!--  -->
+                   
+  
+                     <!--  -->
+  
+                <a href="../index.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <i class="fa-solid fa-right-from-bracket fa-2x"></i>
+                  <span>Logout</span>
+                </a>
+              </div>
+            </div>
+          </nav>
+  
+          <!-- 3 -->
+          <div class="flex items-center mb-3 px-4 w-14 sm:hidden">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute">
+              <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+              <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+            </button>
+          </div>
+        </header>
+  
+        <!-- contain -->
+        <div class="pt-16 sm:w-full sm:pt-0">
+          <div class="flex pt-5 mx-auto justify-center px-5 gap-4 sm:pl-[276px] sm:w-full">
+            <!-- <div class="sm:w-1/4"></div> -->
+  
+            <div class="p-4 w-full bg-white shadow-md shadow-gray-300 rounded-md mb-5">
+                <h2 class="text-lg font-medium mb-4">Categories</h2>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                  <form>
+                    <label class="block text-gray-700 font-medium mb-2">Add Category</label>
+                    <input class="bg-gray-200 p-2 rounded-lg w-full" type="text" placeholder="Enter category name">
+                    <button class="bg-blue-500 p-2 rounded-lg text-white mt-2">Add</button>
+                  </form>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 mt-4">
+                  <table class="table-auto">
+                    <thead>
+                      <tr>
+                        <th class="px-4 py-2">Name</th>
+                        <th class="px-4 py-2">as</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="bg-gray-100">
+                        <td class="px-4 py-2">Arsip Pekon</td>
+                        <td class="px-4 py-2">
+                          <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                          <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="px-4 py-2">Surat Masuk</td>
+                        <td class="px-4 py-2">
+                          <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                          <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                        </td>
+                      </tr>
+                      <tr class="bg-gray-100">
+                        <td class="px-4 py-2">Surat Keluar</td>
+                        <td class="px-4 py-2">
+                          <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                          <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- contain End -->
+        <script src="../js/script.js"></script>
+      </body>
+    </html>
+  </DOCTYPE>
+  

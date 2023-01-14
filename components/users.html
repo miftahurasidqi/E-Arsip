@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" href="../css/fontawesome-free-6.2.1-web/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="../../../style.css" /> -->
+
+    <title>Users | E-Arsip</title>
+  </head>
+  <body>
+    <header class="flex fixed w-full justify-between bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4 sm:block sm:w-64 sm:h-full">
+      <!-- 1 -->
+      <h2 class="text-gray-800 font-bold mb-3 pl-3 text-xl">E-Arsip Pekon Sumberrejo</h2>
+
+      <!-- 2 -->
+      <nav class="fixed hidden top-14 left-0 w-full sm:block sm:static" id="navbar">
+        <!-- <nav class="fixed hidden top-0 left-0 sm:block sm:w-1/4"> -->
+        <div class="bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4">
+          <div class="py-2">
+            <a href="dashboard.html" class="flex gap-1 py-3 bg-socialBlue text-white -mx-5 px-5 rounded-md shadow-md shadow-gray-300">
+              <i class="fa-solid fa-house fa-2x"></i>
+              <span>Home</span>
+            </a>
+
+            <a href="arsip.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+              <i class="fa-solid fa-floppy-disk fa-2x "></i>
+
+
+              <span>Arsip</span>
+            </a>
+
+            <a href="#" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+            <i class="fa-solid fa-user fa-2x "></i>
+             
+              <span>Users</span>
+            </a>
+            <i class="fa-solid fa-folder fa-2x "></i>
+              <span>Categories</span>
+            </a>
+                 <!--  -->
+               
+
+                 <!--  -->
+
+            <a href="../index.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+              <i class="fa-solid fa-right-from-bracket fa-2x"></i>
+              <span>Logout</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 3 -->
+      <div class="flex items-center mb-3 px-4 w-14 sm:hidden">
+        <button id="hamburger" name="hamburger" type="button" class="block absolute">
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+        </button>
+      </div>
+    </header> <header class="flex fixed w-full justify-between bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4 sm:block sm:w-64 sm:h-full">
+      <!-- 1 -->
+      <h2 class="text-gray-800 font-bold mb-3 pl-3 text-xl">E-Arsip Pekon Sumberrejo</h2>
+
+      <!-- 2 -->
+      <nav class="fixed hidden top-14 left-0 w-full sm:block sm:static" id="navbar">
+        <!-- <nav class="fixed hidden top-0 left-0 sm:block sm:w-1/4"> -->
+        <div class="bg-white shadow-md shadow-gray-300 rounded-md mb-5 p-4">
+          <div class="py-2">
+            
+
+            <a href="dashboard.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+              <i class="fa-solid fa-house fa-2x"></i>
+              <span>Home</span>
+            </a>
+
+            <a href="arsip.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+              <i class="fa-solid fa-floppy-disk fa-2x "></i>
+
+
+              <span>Arsip</span>
+            </a>
+
+            <a href="#" class="flex gap-1 py-3 bg-socialBlue text-white -mx-5 px-5 rounded-md shadow-md shadow-gray-300">
+            <i class="fa-solid fa-user fa-2x "></i>
+            
+              <span>Users</span>
+              <a href="categories.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+            <i class="fa-solid fa-folder fa-2x "></i>
+              <span>Categories</span>
+            </a>
+                 <!--  -->
+               
+
+                 <!--  -->
+
+            <a href="../index.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+              <i class="fa-solid fa-right-from-bracket fa-2x"></i>
+              <span>Logout</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 3 -->
+      <div class="flex items-center mb-3 px-4 w-14 sm:hidden">
+        <button id="hamburger" name="hamburger" type="button" class="block absolute">
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+          <span class="w-[30px] h-[2px] my-2 block bg-gray-800"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- contain -->
+    <div class="pt-16 sm:w-full sm:pt-0">
+      <div class="flex pt-5 mx-auto justify-center px-5 gap-4 sm:pl-[276px] sm:w-full">
+        <!-- <div class="sm:w-1/4"></div> -->
+
+        <div class="p-5 w-full flex justify-center bg-white shadow-md shadow-gray-300 rounded-md mb-5">
+          <div class="overflow-x-scroll">
+            <h2 class="text-2xl font-medium mb-4">Users</h2>
+            <a href="addUser.html"
+              ><div class="mb-4"><i class="fa-solid fa-user-plus fa-2x"></i></div
+            ></a>
+
+            <table class="table-auto">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2">Name</th>
+                  <th class="px-4 py-2">Email</th>
+                  <th class="px-4 py-2">Role</th>
+                  <th class="px-4 py-2"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 1</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 1</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 2</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 3</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 4</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+                <tr class="bg-gray-100">
+                  <td class="px-4 py-2">user 5</td>
+                  <td class="px-4 py-2">user.gmail.com</td>
+                  <td class="px-4 py-2">Admin</td>
+                  <td class="px-4 py-2">
+                    <a href="#" class="px-2 py-1 text-lg text-blue-500">Edit</a>
+                    <a href="#" class="px-2 py-1 text-lg text-red-500">Delete</a>
+                  </td>
+                </tr>
+          
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contain End -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
