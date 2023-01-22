@@ -16,23 +16,33 @@
         <div class="bg-blue-500 w-80 p-7 shadow-md shadow-gray-300 rounded-md">
           <!--  -->
           <div class="flex justify-center items-center gap-3 py-3 pb-5">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
-              />
-            </svg>
-            <h2 class="text-gray-800 text-3xl font-semibold inline-block">E-Arsip</h2>
+            <h2 class="text-gray-800 text-xl font-semibold inline-block">Tambah Admin Baru</h2>
           </div>
           <!--  -->
 
           <label class="text-gray-700" for="Nama">Nama</label>
           <input class="w-full p-2 bg-gray-100 text-gray-700 rounded-md outline-gray-700 mb-4" type="text" placeholder="Masukan Nama" id="Nama" />
 
-          <label class="text-gray-700" for="Jabatan">Jabatan</label>
-          <input class="w-full p-2 bg-gray-100 text-gray-700 rounded-md outline-gray-700 mb-4" type="text" placeholder="Masukan Jabatan" id="Jabatan" />
-
+          <label class="text-gray-700">Jabatan</label>
+          <div class="pl-8 bg-gray-100 text-gray-700 rounded-md outline-gray-700 mb-4">
+            <div>
+              <input class="" name="jabatan" type="radio" id="kepalaDesa" />
+              <label class="text-gray-700" for="kepalaDesa">Kepala Desa</label>
+            </div>
+            <div>
+              <input class="" name="jabatan" type="radio" id="Sekertaris" />
+              <label class="text-gray-700" for="Sekertaris">Sekertaris Desa</label>
+            </div>
+            <div>
+              <input class="" name="jabatan" type="radio" id="Kaur" />
+              <label class="text-gray-700" for="Kaur">Kaur</label>
+            </div>
+            <div>
+              <input class="" name="jabatan" type="radio" id="Admin" />
+              <label class="text-gray-700" for="Admin">Admin</label>
+            </div>
+          </div>
+          <!-- w-full p-2 bg-gray-100 text-gray-700 rounded-md outline-gray-700 mb-4 -->
           <label class="text-gray-700" for="email">Email</label>
           <input class="w-full p-2 bg-gray-100 text-gray-700 rounded-md outline-gray-700 mb-4" type="text" placeholder="Masukan Email" id="email" />
 

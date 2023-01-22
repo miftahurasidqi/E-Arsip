@@ -26,19 +26,32 @@
               <span>Home</span>
             </a>
 
-            <a href="arsip.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
-              <i class="fa-solid fa-floppy-disk fa-2x"></i>
-              <span>Arsip</span>
-            </a>
+            <div>
+              <a href="arsip/index.html" class="flex gap-1 py-[2px] my-1 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                <i class="fa-solid fa-folder fa-2x"></i>
+                <span>Arsip</span>
+              </a>
+              <div>
+                <a href="arsip/arsipUmum.html" class="flex gap-1 py-[2px] my-1 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <!-- <i class="fa-solid fa-user fa-2x"></i> -->
+                  <span>Arsip Umum</span>
+                </a>
+
+                <a href="arsip/suratMasuk.html" class="flex gap-1 py-[2px] my-1 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <!-- <i class="fa-solid fa-right-from-bracket fa-2x"></i> -->
+                  <span>Surat Masuk</span>
+                </a>
+
+                <a href="arsip/suratKeluar.html" class="flex gap-1 py-[2px] my-1 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
+                  <!-- <i class="fa-solid fa-right-from-bracket fa-2x"></i> -->
+                  <span>Surat Keluar</span>
+                </a>
+              </div>
+            </div>
 
             <a href="#" class="flex gap-1 py-3 bg-socialBlue text-white -mx-5 px-5 rounded-md shadow-md shadow-gray-300">
               <i class="fa-solid fa-user fa-2x"></i>
               <span>Users</span>
-            </a>
-
-            <a href="categories/index.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
-              <i class="fa-solid fa-folder fa-2x"></i>
-              <span>Categories</span>
             </a>
 
             <a href="../index.html" class="flex gap-1 py-1 my-2 -mx-2 px-2 rounded-md transition-all hover:mx-1 hover:px-1 hover:bg-blue-500 hover:bg-opacity-60 hover:scale-110 hover:shadow-md shadow-gray-200">
@@ -62,17 +75,28 @@
     <!-- contain -->
     <div class="pt-16 sm:w-full sm:pt-0">
       <div class="flex pt-5 mx-auto justify-center px-5 gap-4 sm:pl-[276px] sm:w-full">
-        <!-- <div class="sm:w-1/4"></div> -->
+        <div class="p-4 w-full bg-white shadow-md shadow-gray-300 rounded-md mb-5">
+          <h1 class="font-medium text-2xl">Users</h1>
+        </div>
+      </div>
 
-        <div class="p-5 w-full flex justify-center bg-white shadow-md shadow-gray-300 rounded-md mb-5">
+      <div class="pt-3 sm:pl-[276px] p-5">
+        <div class="bg-white rounded-lg shadow-md p-4 mt-4">
+          <div class="flex justify-between p-4">
+            <form class="w-1/2">
+              <label class="block text-gray-700 font-medium mb-2">Search</label>
+              <input class="bg-gray-200 p-2 rounded-lg w-full" type="text" placeholder="Enter keywords" />
+            </form>
+            <div class="w-13">
+              <h1 class="font-medium text-md mb-1">Jumlah : <span>3</span></h1>
+              <a href="addUser.html">
+                <div class="mb-4">
+                  <i class="fa-solid fa-user-plus fa-2x"></i>
+                </div>
+              </a>
+            </div>
+          </div>
           <div class="overflow-x-scroll">
-            <h2 class="text-2xl font-medium mb-4">Users</h2>
-            <a href="addUser.html">
-              <div class="mb-4">
-                <i class="fa-solid fa-user-plus fa-2x"></i>
-              </div>
-            </a>
-
             <table class="table-auto">
               <thead>
                 <tr>
@@ -144,6 +168,7 @@
       </div>
     </div>
     <!-- contain End -->
+
     <script src="../js/script.js"></script>
   </body>
 </html>
